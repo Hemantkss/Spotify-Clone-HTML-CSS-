@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Assets/logo.png">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+
+
+        <!-- SIDEBAR EDITS  -->
+
+        <div class="sidebar">
+            <div class="nav">
+                <div class="spotify">
+                    <i class="fa-brands fa-spotify"></i>
+                    <a href="#">Spotify</a>
+                </div>
+
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                        <img src="Assets/library_icon.png" alt="library icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        
+                        <p class="box-p1" style="background-color: #232323" >Create your first playlist</p>
+
+                        <p class="box-p2" style="background-color: #232323;">It's easy, we'll help you</p>
+                        
+                        <button class="bedge">Create Playlist</button>
+
+                    </div>
+
+                    <div class="box2">
+                        
+                        <p class="box-p3" style="background-color: #232323" >Let's fond some podcasts to follow</p>
+                        
+                        <p class="box-p4" style="background-color: #232323;">we'll keep you updated on new episodes</p>
+                        
+                        <button class="bedge">Browse Podcasts</button>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- MAIN EDITS -->
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="stickynav-icons">
+                    <img src="Assets/backward_icon.png" alt="icons">
+                    <img src="Assets/forward_icon.png" alt="icons" class="hide">
+                </div>
+                <div class="stickynav-btn">
+                    <button class="bedge nav-item hide">explore Premium</button>
+                    <button class="bedge nav-item dark-back"> <i class="fa-regular fa-circle-down"></i> Install App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+                
+            </div>
+            
+                <h2 style="padding: 0.5rem 0 0.5rem 1rem;">Recently Play</h2>
+                <div class="cards-cont">
+                    <div class="card">
+                        <img src="Assets/card1img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                </div>
+
+
+
+                <h2 style="padding: 0.5rem 0 0.5rem 1rem;">Tranding now near you</h2>
+                <div class="cards-cont">
+                    <div class="card">
+                        <img src="Assets/card2img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card3img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card4img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card3img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card1img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                </div>
+
+                <h2 style="padding: 0.5rem 0 0.5rem 1rem;">Featured Charts</h2>
+                <div class="cards-cont">
+                    <div class="card">
+                        <img src="Assets/card5img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card6img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card5img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card6img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card5img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card6img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                    <div class="card">
+                        <img src="Assets/card5img.jpeg" alt="">
+                        <p class="card-title" style="background-color: #212121">Top 50-Global</p>
+                        <p class="card-info" style="background-color: #212121">your daily updates of the most play. . . </p>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="line">
+                        
+                    </div>
+                </div>
+            
+        </div>
+
+
+        <!-- BOTTOM MUSICBAR EDITS -->
+        <div class="music-player">
+            <div class="album">
+                <div class="song">
+                    <img src="Homework frame/album_picture.jpeg" alt="" class="album-1">
+                    <div class="name">
+                        <p class="song-name">Daylight</p> 
+                        <p class="song-write">David Kushner</p>
+                    </div>
+                    
+                    <img src="Homework frame/album_icon1.png" alt="" class="album-2">
+                    <img src="Homework frame/album_icon2.png" alt="" class="album-3">
+                </div>
+                    
+                
+            </div>
+
+
+            <div class="player">
+                <div class="player-control">
+                    <img src="Assets/player_icon1.png" class="player-controlicon" alt="">
+                    <img src="Assets/player_icon2.png" class="player-controlicon" alt="">
+                    <img src="Assets/player_icon3.png" class="player-controlicon" alt="" style="opacity: 2; height: 2rem;">
+                    <img src="Assets/player_icon4.png" class="player-controlicon" alt="">
+                    <img src="Assets/player_icon5.png" class="player-controlicon" alt="">
+                    
+                </div>
+                <div class="player-bar">
+                    <span class="cu-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progess-bar" step="1">
+                    <span class="tot-time">3:45</span>
+                </div>
+            </div>
+            <div class="control">
+                <div class="control-icon">
+                      <img src="Homework frame/controls_icon1.png" alt="" style="height: 2.5rem;" class="foot-icon">
+                      <img src="Homework frame/controld_icon2.png" alt="" style="height: 2.5rem;" class="foot-icon">
+                      <img src="Homework frame/controls_icon3.png" alt="" style="height: 1.5rem ;" class="foot-icon">
+                      <img src="Homework frame/controls_icon4.png" alt="" style="height: 1rem;" class="foot-icon">
+                      <img src="Homework frame/controls_icon5.png" alt="" style="height: 3rem;" class="foot-icon">
+
+                      <input type="range" class="volume-input" min="0" max="70" step="5">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
